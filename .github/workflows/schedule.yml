@@ -13,6 +13,6 @@ jobs:
       - name: Update gist
         uses: maxam2017/productive-box@master
         env:
-          GH_TOKEN: a7c4970850ca9c024f816e73ab61bedbc5098042
-          GIST_ID: 6b0ceae344c195b01879da79725d1caf
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_ID }}
           LOCALE: ko-KR
