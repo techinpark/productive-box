@@ -11,6 +11,7 @@
    <img src="https://img.shields.io/github/stars/maxam2017/productive-box"/>
    <img src="https://img.shields.io/github/forks/maxam2017/productive-box"/>
 </p>
+
 <p align="center">
    Are you an early 🐤 or a night 🦉?
    <br/>
@@ -24,11 +25,13 @@
 > This project is inspired by an awesome pinned-gist project.<br/>Find more in https://github.com/matchai/awesome-pinned-gists
 
 ## Overview
+
 This project uses GitHub graphQL API to get the commit histories and write into the gist by [rest.js](https://github.com/octokit/rest.js#readme)
 
 ## Setup
 
 ### Prep work
+
 1. Create a new public GitHub Gist (https://gist.github.com/)
 1. Create a token with the `gist` and `repo` scope and copy it. (https://github.com/settings/tokens/new)
    > enable `repo` scope seems **DANGEROUS**<br/>
