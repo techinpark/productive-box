@@ -9,6 +9,7 @@ jobs:
   update-gist:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Update gist
         uses: maxam2017/productive-box@master
         env:
