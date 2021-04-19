@@ -1,4 +1,4 @@
-<p align="center">
+<p align="center">    
   <a href="http://lovera.maxam.now.sh/">
     <img src="https://user-images.githubusercontent.com/25841814/79395484-5081ae80-7fac-11ea-9e27-ac91472e31dd.png" alt="screenshot" width="500">
   </a>
@@ -11,7 +11,7 @@
    <img src="https://img.shields.io/github/stars/maxam2017/productive-box"/>
    <img src="https://img.shields.io/github/forks/maxam2017/productive-box"/>
 </p>
-<p align="center">
+<p align="center">  
    Are you an early 🐤 or a night 🦉?
    <br/>
    When are you most productive during the day?
