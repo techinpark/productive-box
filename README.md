@@ -1,10 +1,10 @@
-<p align="center">
-  <a href="http://lovera.maxam.now.sh/">
+<p align="center">   
+  <a href="http://lovera.maxam.now.sh/">    
     <img src="https://user-images.githubusercontent.com/25841814/79395484-5081ae80-7fac-11ea-9e27-ac91472e31dd.png" alt="screenshot" width="500">
   </a>
   <h3 align="center">📌✨productive-box</h3>
 </p>
-
+  
 <p align="center">
    <img src="https://img.shields.io/badge/language-typescript-blue?style"/>
    <img src="https://img.shields.io/github/license/maxam2017/productive-box"/>
@@ -35,7 +35,7 @@ This project uses GitHub graphQL API to get the commit histories and write into 
    > but this GitHub Action only accesses your commit timestamp in repository you contributed.
 
 ### Project setup
-
+ 
 1. Fork this repo
 1. Open the "Actions" tab of your fork and click the "enable" button
 1. Edit the [environment variable](https://github.com/maxam2017/productive-box/blob/master/.github/workflows/schedule.yml#L17-L18) in `.github/workflows/schedule.yml`:
