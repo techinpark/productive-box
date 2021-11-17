@@ -13,5 +13,5 @@ jobs:
         uses: maxam2017/productive-box@master
         env:
           GH_TOKEN: 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
-          GIST_ID: https://gist.github.com/YuLim2/
+          GIST_ID: c03063493a10165c52485c23b33b93f0
           TIMEZONE: Asia/Seoul
