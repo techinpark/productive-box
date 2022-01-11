@@ -75,6 +75,7 @@ interface IRepo {
     { label: '🌆Daytime', commits: daytime },
     { label: '🌃Evening', commits: evening },
     { label: '🌙Night', commits: night },
+    { label: '🎆 Full Day', commits: sum },
   ];
 
   const lines = oneDay.reduce((prev, cur) => {
