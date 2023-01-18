@@ -12,6 +12,6 @@ jobs:
       - name: Update gist
         uses: SIHYEONee/productive-box@master
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.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 }}
           GIST_ID: ${{ secrets.34606fd145aa9c4a8a47505a1bcd2f0f }}
           TIMEZONE: Asia/Seoul
