@@ -34,7 +34,7 @@ This project uses GitHub graphQL API to get the commit histories and write into 
    > enable `repo` scope seems **DANGEROUS**<br/>
    > but this GitHub Action only accesses your commit timestamp in repository you contributed..
 
-### Project setup
+### Project setupdfdfd
 
 1. Fork this repo
 1. Open the "Actions" tab of your fork and click the "enable" button
