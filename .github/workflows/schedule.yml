@@ -12,6 +12,5 @@ jobs:
       - name: Update gist
         uses: maxam2017/productive-box@master
         env:
-          GH_TOKEN: ${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}
-          GIST_ID: ${https://gist.github.com/rudeh2926/8cffb842e036b4fcec2d0c6d008fe560}
+
           TIMEZONE: Asia/Seoul
