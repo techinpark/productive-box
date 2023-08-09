@@ -16,7 +16,7 @@
    <br/>
    When are you most productive during the day?
    <br/>
-   Let's check out in gist!
+   Let's check out in gist! 
 </p>
 
 ---
@@ -47,3 +47,4 @@ This project uses GitHub graphQL API to get the commit histories and write into 
 1. Add the following environment variables:
    - **GH_TOKEN:** The GitHub token generated above.
 1. [Pin the newly created Gist](https://help.github.com/en/github/setting-up-and-managing-your-github-profile/pinning-items-to-your-profile)
+
