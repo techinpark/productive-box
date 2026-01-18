@@ -1,17 +1,34 @@
-name: Update gist
+name: Update Commit Time Stats
+
 on:
-  push:
-    branches:
-      - master
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *" # 매일 자정 실행
+  workflow_dispatch: # 수동 실행 가능
+
 jobs:
-  update-gist:
+  update-commit-stats:
     runs-on: ubuntu-latest
+
+    env:
+      GITHUB_USERNAME: jung518
+      REPO_NAME: productive-box
+      COMMIT_MESSAGE: "Update commit time stats"
+
     steps:
-      - name: Update gist
-        uses: maxam2017/productive-box@master
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate Commit Time Stats SVG
+        run: |
+          mkdir -p ./assets
+          curl -o ./assets/commit-time.svg "https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=${GITHUB_USERNAME}&theme=nord"
+
+      - name: Commit & Push
+        run: |
+          git config --local user.email "you@example.com"
+          git config --local user.name "WooYeon"
+          git add ./assets/commit-time.svg
+          git commit -m "${COMMIT_MESSAGE}" || echo "No changes to commit"
+          git push
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: ${{ secrets.GIST_ID }}
-          TIMEZONE: Asia/Seoul
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
